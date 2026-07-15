@@ -1,14 +1,14 @@
 module.exports = {
   content: [
     "./index.html",
-    "./src/**/*.{js,jsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
       colors: {
-        '8te-yellow': '#FFD700',
-        '8te-dark': '#1a1a1a',
-        '8te-light': '#f5f5f5',
+        'primary-yellow': '#FFD700',
+        'primary-dark': '#1a1a1a',
+        'primary-light': '#f5f5f5',
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],

@@ -7,7 +7,7 @@
 }
 
 body {
-  @apply bg-8te-light text-8te-dark;
+  @apply bg-primary-light text-primary-dark;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -17,15 +17,15 @@ body {
 
 /* 8te Custom Styles */
 .btn-primary {
-  @apply bg-8te-yellow text-8te-dark font-bold py-2 px-4 rounded-lg hover:bg-yellow-500 transition-colors;
+  @apply bg-primary-yellow text-primary-dark font-bold py-2 px-4 rounded-lg hover:bg-yellow-500 transition-colors;
 }
 
 .btn-secondary {
-  @apply bg-8te-dark text-8te-yellow font-bold py-2 px-4 rounded-lg border-2 border-8te-yellow hover:bg-yellow-100 hover:text-8te-dark transition-colors;
+  @apply bg-primary-dark text-primary-yellow font-bold py-2 px-4 rounded-lg border-2 border-primary-yellow hover:bg-yellow-100 hover:text-primary-dark transition-colors;
 }
 
 .card {
-  @apply bg-white rounded-lg shadow-md p-4 border-l-4 border-8te-yellow;
+  @apply bg-white rounded-lg shadow-md p-4 border-l-4 border-primary-yellow;
 }
 
 .status-fresh {
@@ -45,9 +45,9 @@ body {
 }
 
 .input-primary {
-  @apply w-full px-4 py-2 border-2 border-8te-yellow rounded-lg focus:outline-none focus:ring-2 focus:ring-8te-yellow;
+  @apply w-full px-4 py-2 border-2 border-primary-yellow rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-yellow;
 }
 
 .badge-yellow {
-  @apply bg-8te-yellow text-8te-dark px-2 py-1 rounded-full text-xs font-bold;
+  @apply bg-primary-yellow text-primary-dark px-2 py-1 rounded-full text-xs font-bold;
 }
