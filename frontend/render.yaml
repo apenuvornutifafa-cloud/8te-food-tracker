@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: 8te-web
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm run preview
+    envVars:
+      - key: VITE_API_URL
+        scope: build,runtime
+      - key: NODE_ENV
+        value: production

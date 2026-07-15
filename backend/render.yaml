@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: 8te-api
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: MONGODB_URI
+        scope: build,runtime
+      - key: JWT_SECRET
+        scope: build,runtime
+      - key: CLIENT_URL
+        scope: build,runtime
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
