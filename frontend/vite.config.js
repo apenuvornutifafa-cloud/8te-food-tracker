@@ -12,5 +12,9 @@ export default defineConfig({
         rewrite: (path) => path.replace(/^\/api/, '/api')
       }
     }
-  }
+  },
+  preview: {
+    host: '0.0.0.0',
+    allowedHosts: ['eightte-web.onrender.com'],
+  },
 })
